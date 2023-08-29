@@ -1,0 +1,90 @@
+[
+    {
+        "table": "A",
+        "no": "",
+        "effectiveDay": "",
+        "rates": [
+            {
+                "code": "THB",
+                "currency": "bat (Tajlandia)",
+                "mid": 0.1176
+            },
+            {
+                "code": "USD",
+                "currency": "dolar amerykański",
+                "mid": 4.1341
+            },
+            {
+                "code": "AUD",
+                "currency": "dolar australijski",
+                "mid": 2.661
+            },
+            {
+                "code": "HKD",
+                "currency": "dolar Hongkongu",
+                "mid": 0.5268
+            },
+            {
+                "code": "CAD",
+                "currency": "dolar kanadyjski",
+                "mid": 3.0369
+            },
+            {
+                "code": "NZD",
+                "currency": "dolar nowozelandzki",
+                "mid": 2.4467
+            },
+            {
+                "code": "SGD",
+                "currency": "dolar singapurski",
+                "mid": 3.0516
+            },
+            {
+                "code": "EUR",
+                "currency": "euro",
+                "mid": 4.469
+            },
+            {
+                "code": "THB",
+                "currency": "bat (Tajlandia)",
+                "mid": 0.1176
+            },
+            {
+                "code": "USD",
+                "currency": "dolar amerykański",
+                "mid": 4.1341
+            },
+            {
+                "code": "AUD",
+                "currency": "dolar australijski",
+                "mid": 2.661
+            },
+            {
+                "code": "HKD",
+                "currency": "dolar Hongkongu",
+                "mid": 0.5268
+            },
+            {
+                "code": "CAD",
+                "currency": "dolar kanadyjski",
+                "mid": 3.0369
+            },
+            {
+                "code": "NZD",
+                "currency": "dolar nowozelandzki",
+                "mid": 2.4467
+            },
+            {
+                "code": "SGD",
+                "currency": "dolar singapurski",
+                "mid": 3.0516
+            },
+            {
+                "code": "EUR",
+                "currency": "euro",
+                "mid": 4.469
+            }
+        ]
+    }
+]
+

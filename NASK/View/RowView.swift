@@ -8,25 +8,34 @@
 import SwiftUI
 
 struct RowView: View {
+    
     var id: String
     var currency: String
     var mid: Double
     
     var body: some View {
-        HStack {
-            Text(id)
-            Spacer()
-            Text(currency)
-                .font(.footnote)
-//            Spacer()
-//            Text(String(format: "%.3f", mid))
+        
+        ZStack {
+        
+            Rectangle()
+                .foregroundColor(.white)
+                .cornerRadius(15)
+                .shadow(radius: 5, x: -2, y: 3)
+            
+            VStack {
+            
+                Text(id)
+                    .bold()
+                    .foregroundColor(.purple)
+                    .italic()
+                
+                Text(currency)
+                    .italic()
+                    .font(.footnote)
+            }
+            .padding([.leading, .trailing])
         }
-        .padding(.leading)
-        .padding(.trailing)
-        .frame(alignment: .center)
-        .border(.gray, width: 0.1)
-        .cornerRadius(5)
-        .shadow(color:.gray, radius: 5)
+        .frame(height:65)
     }
 }
 

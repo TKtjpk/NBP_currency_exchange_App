@@ -12,7 +12,9 @@ class ContentModel: ObservableObject {
     @Published var rateList = [Table]()
     
     init() {
-        self.searchData()
+        let service = DataService()
+        self.rateList = service.mockedData()
+        //self.searchData()
     }
     
     func searchData() {
