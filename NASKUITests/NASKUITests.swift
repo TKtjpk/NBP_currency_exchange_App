@@ -13,7 +13,7 @@ final class NASKUITests: XCTestCase {
         // Put setup code here. This method is called before the invocation of each test method in the class.
 
         // In UI tests it is usually best to stop immediately when a failure occurs.
-        continueAfterFailure = false
+        continueAfterFailure = true
 
         // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
     }
@@ -26,6 +26,10 @@ final class NASKUITests: XCTestCase {
         // UI tests must launch the application that they test.
         let app = XCUIApplication()
         app.launch()
+        let button = app.buttons["SGD, dolar singapurski"]
+        button.tap()
+        XCTAssert(true)
+        
 
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

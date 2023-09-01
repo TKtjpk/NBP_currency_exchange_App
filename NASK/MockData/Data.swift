@@ -60,3 +60,8 @@ import Foundation
      }
  ]
  */
+
+
+/*
+ {"table":"A","currency":"frank szwajcarski","code":"CHF","rates":[{"no":"157/A/NBP/2023","effectiveDate":"2023-08-16","mid":4.6507},{"no":"158/A/NBP/2023","effectiveDate":"2023-08-17","mid":4.6730},{"no":"159/A/NBP/2023","effectiveDate":"2023-08-18","mid":4.6897},{"no":"160/A/NBP/2023","effectiveDate":"2023-08-21","mid":4.6718},{"no":"161/A/NBP/2023","effectiveDate":"2023-08-22","mid":4.6632},{"no":"162/A/NBP/2023","effectiveDate":"2023-08-23","mid":4.7067},{"no":"163/A/NBP/2023","effectiveDate":"2023-08-24","mid":4.6830},{"no":"164/A/NBP/2023","effectiveDate":"2023-08-25","mid":4.6767},{"no":"165/A/NBP/2023","effectiveDate":"2023-08-28","mid":4.6821},{"no":"166/A/NBP/2023","effectiveDate":"2023-08-29","mid":4.6725}]}
+ */

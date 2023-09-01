@@ -34,3 +34,32 @@ struct Rate: Decodable, Identifiable {
         case mid
     }
 }
+
+class Daily: Decodable, Identifiable, ObservableObject {
+    var table: String?
+    var currency: String?
+    var id: String?
+    var rates: [Rates]?
+    
+    enum CodingKeys: String, CodingKey {
+        case id = "code"
+        
+        case table
+        case currency
+        case rates
+    }
+}
+
+struct Rates: Decodable, Identifiable {
+    var id: String?
+    var effectiveDate: String?
+    var mid: Double?
+    
+    enum CodingKeys: String, CodingKey {
+        case id = "no"
+
+        case effectiveDate
+        case mid
+    }
+    
+}

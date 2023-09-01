@@ -8,29 +8,64 @@
 import XCTest
 @testable import NASK
 
-final class NASKTests: XCTestCase {
-
+final class DataReceivingDecodingTests: XCTestCase {
+    
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        continueAfterFailure = false
     }
 
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
+    override func tearDownWithError() throws {}
 
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-        // Any test you write for XCTest can be annotated as throws and async.
-        // Mark your test throws to produce an unexpected failure when your test encounters an uncaught error.
-        // Mark your test async to allow awaiting for asynchronous code to complete. Check the results with assertions afterwards.
+    func test_DataService_receivedDataIsNotNil() throws {
+        // Given
+        let dataService = DataService()
+        
+        // When
+        let table = dataService.mockedData()
+        
+        // Then
+        XCTAssertNotNil(table, "Basic Data Table JSON decoding failed")
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func test_DailyService_receivedDataIsNotNil() throws {
+        // Given
+        let dataService = DataService()
+        let dailyService = DailyService()
+        let codes = ["chf", "usd", "thb", "aud"]
+        
+        for rate in codes {
+            
+            // When
+            let daily = dailyService.mockedData(currency: (rate.lowercased()))
+            
+            // Then
+            XCTAssertNotNil(daily.table, "Daily Rates Data JSON decaoding failed")
         }
     }
-
+    
+    func test_DailyService_receivedDataIsNil() throws {
+        // Given
+        let dataService = DataService()
+        let dailyService = DailyService()
+        
+        // When
+        let daily = dailyService.mockedData(currency: "CHG")
+        
+        // Then
+        XCTAssertNil(daily.table, "Daily Rates Data JSON decaoding failed")
+    }
+    
+    func test_Application_expectedError() throws {
+        XCTExpectFailure("Working on a fix for this problem.")
+    }
+    
+//    func testPerformanceExample() throws {
+//        self.measure {
+//            // Given
+//            let networkModel = NetworkContentModel()
+//
+//            // Then
+//            XCTAssertTrue(networkModel.netData.count == 0, "")
+//        }
+//    }
 }

@@ -7,6 +7,19 @@
 
 import Foundation
 
+class RatesModel: ObservableObject {
+    
+    @Published var rates = Daily()
+    
+    @Published var currency: String
+    
+    init(currency: String) {
+        self.currency = currency
+        let service = DailyService()
+        self.rates = service.mockedData(currency: self.currency)
+    }
+}
+
 class ContentModel: ObservableObject {
     
     @Published var rateList = [Table]()
@@ -14,7 +27,15 @@ class ContentModel: ObservableObject {
     init() {
         let service = DataService()
         self.rateList = service.mockedData()
-        //self.searchData()
+    }
+}
+
+class NetworkContentModel: ObservableObject {
+    
+    @Published var netData = [Table]()
+    
+    init() {
+        searchData()
     }
     
     func searchData() {
@@ -41,7 +62,7 @@ class ContentModel: ObservableObject {
                         let result = try decoder.decode([Table].self, from: data!)
                         
                         DispatchQueue.main.async {
-                            self.rateList = result
+                            self.netData = result
                         }
                         
                         print("result: \(result)")

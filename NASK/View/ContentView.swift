@@ -15,7 +15,7 @@ struct ContentView: View {
     
     @State private var swapButtonName: String = "Circles"
     
-    @State private var multiplier = 3.5
+    //@StateObject var currency = ContentModel()
     
     var body: some View {
         
@@ -37,27 +37,30 @@ struct ContentView: View {
                                 
                                 let c = ratesTable.rateList[0].rates?.count ?? 1
                                 
-                                let count = c / 3 + 1
+                                let count = c / 2 + 1
                                 
-                                ForEach (0..<count) { row  in
+                                ForEach (0..<count, id: \.self) { row  in
                                     
                                     GridRow {
                                         
-                                        let start = row * 3
+                                        let start = row * 2
                                         
-                                        let lim = start + 3 < c ? start + 3 : c
+                                        let lim = start + 2 < c ? start + 2 : c
                                         
-                                        ForEach (start..<lim) { rate in
+                                        ForEach (start..<lim, id: \.self) { rate in
                                             
-                                            NavigationLink(destination: ProgressView(), label: {
+                                            let currency = ratesTable.rateList[0].rates![rate].id!
+                                            
+                                            NavigationLink(destination: DetailView()
+                                                .environmentObject(RatesModel(currency: currency)), label: {
                                                 
                                                 let id = ratesTable.rateList[0].rates![rate].id ?? ""
                                                 let currency = ratesTable.rateList[0].rates![rate].currency ?? ""
                                                 let mid = ratesTable.rateList[0].rates![rate].mid ?? 0.0
-                                                let maxSize = geometry.size.width / multiplier
+                                                let maxSize = geometry.size.width / 2.5
                                                 
                                                 if viewSwap {
-                                                    RowView(id: id, currency: currency, mid: mid)
+                                                    RowView(id: id, currency: currency)
                                                 } else {
                                                     CoinView(id: id, currency: currency, mid: mid, maxSize: maxSize)
                                                 }
@@ -71,19 +74,19 @@ struct ContentView: View {
                             }
                         }
                         .padding()
-                        
-                        if !viewSwap {
-                            Slider(value: $multiplier, in: 3.5...5)
-                                .padding([.leading, .trailing])
-                        }
                     }
-                    .navigationBarItems(trailing: Toggle("View", isOn: $viewSwap)
+                    .navigationBarItems(trailing: Toggle("Toggle view", isOn: $viewSwap)
                         .toggleStyle(.switch)
-                        .foregroundColor(.purple))
+                        .foregroundColor(.indigo)
+                        .tint(.indigo)
+                        .font(.footnote)
+                        .shadow(radius: 5, x: -2, y: 3)
+                    )
+                    
                     .navigationBarHidden(false)
                 }
             }
-            .accentColor(.purple)
+            .accentColor(.indigo)
         }
     }
 }

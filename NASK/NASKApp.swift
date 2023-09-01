@@ -9,6 +9,7 @@ import SwiftUI
 
 @main
 struct NASKApp: App {
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
