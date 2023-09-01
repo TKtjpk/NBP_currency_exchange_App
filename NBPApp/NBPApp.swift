@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct NASKApp: App {
+struct NBPApp: App {
     
     var body: some Scene {
         WindowGroup {

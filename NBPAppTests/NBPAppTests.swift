@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import NASK
+@testable import NBP_Exchange_Rates
 
 final class DataReceivingDecodingTests: XCTestCase {
     

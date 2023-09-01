@@ -16,13 +16,13 @@
 		5E01DFED2A9E7BBB003DC88C /* aud.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E01DFEC2A9E7BBB003DC88C /* aud.json */; };
 		5E01DFEF2A9E7BF3003DC88C /* usd.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E01DFEE2A9E7BF3003DC88C /* usd.json */; };
 		5E01DFF12A9E7E49003DC88C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E01DFF02A9E7E49003DC88C /* DetailView.swift */; };
-		5EF2B1132A9D08F80020DC62 /* NASKApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1122A9D08F80020DC62 /* NASKApp.swift */; };
+		5E4CB6D32AA20EA40079CEF8 /* NBPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E4CB6D22AA20EA40079CEF8 /* NBPApp.swift */; };
 		5EF2B1152A9D08F80020DC62 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1142A9D08F80020DC62 /* ContentView.swift */; };
 		5EF2B1172A9D08FA0020DC62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2B1162A9D08FA0020DC62 /* Assets.xcassets */; };
 		5EF2B11A2A9D08FA0020DC62 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EF2B1192A9D08FA0020DC62 /* Preview Assets.xcassets */; };
-		5EF2B1242A9D08FA0020DC62 /* NASKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1232A9D08FA0020DC62 /* NASKTests.swift */; };
-		5EF2B12E2A9D08FA0020DC62 /* NASKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B12D2A9D08FA0020DC62 /* NASKUITests.swift */; };
-		5EF2B1302A9D08FA0020DC62 /* NASKUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B12F2A9D08FA0020DC62 /* NASKUITestsLaunchTests.swift */; };
+		5EF2B1242A9D08FA0020DC62 /* NBPAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1232A9D08FA0020DC62 /* NBPAppTests.swift */; };
+		5EF2B12E2A9D08FA0020DC62 /* NBPAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B12D2A9D08FA0020DC62 /* NBPAppUITests.swift */; };
+		5EF2B1302A9D08FA0020DC62 /* NBPAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B12F2A9D08FA0020DC62 /* NBPAppUITestsLaunchTests.swift */; };
 		5EF2B1402A9D09390020DC62 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B13F2A9D09390020DC62 /* Model.swift */; };
 		5EF2B1422A9D09710020DC62 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1412A9D09710020DC62 /* ContentModel.swift */; };
 		5EF2B1442A9D249D0020DC62 /* RowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF2B1432A9D249D0020DC62 /* RowView.swift */; };
@@ -55,16 +55,16 @@
 		5E01DFEC2A9E7BBB003DC88C /* aud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = aud.json; sourceTree = "<group>"; };
 		5E01DFEE2A9E7BF3003DC88C /* usd.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = usd.json; sourceTree = "<group>"; };
 		5E01DFF02A9E7E49003DC88C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		5EF2B10F2A9D08F80020DC62 /* NASK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NASK.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EF2B1122A9D08F80020DC62 /* NASKApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASKApp.swift; sourceTree = "<group>"; };
+		5E4CB6D22AA20EA40079CEF8 /* NBPApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NBPApp.swift; sourceTree = "<group>"; };
+		5EF2B10F2A9D08F80020DC62 /* NBP Exchange Rates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NBP Exchange Rates.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF2B1142A9D08F80020DC62 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EF2B1162A9D08FA0020DC62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EF2B1192A9D08FA0020DC62 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		5EF2B11F2A9D08FA0020DC62 /* NASKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EF2B1232A9D08FA0020DC62 /* NASKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASKTests.swift; sourceTree = "<group>"; };
-		5EF2B1292A9D08FA0020DC62 /* NASKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NASKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EF2B12D2A9D08FA0020DC62 /* NASKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASKUITests.swift; sourceTree = "<group>"; };
-		5EF2B12F2A9D08FA0020DC62 /* NASKUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NASKUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5EF2B11F2A9D08FA0020DC62 /* NBP Exchange RatesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBP Exchange RatesTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF2B1232A9D08FA0020DC62 /* NBPAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBPAppTests.swift; sourceTree = "<group>"; };
+		5EF2B1292A9D08FA0020DC62 /* NBP Exchange RatesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NBP Exchange RatesUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5EF2B12D2A9D08FA0020DC62 /* NBPAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBPAppUITests.swift; sourceTree = "<group>"; };
+		5EF2B12F2A9D08FA0020DC62 /* NBPAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NBPAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		5EF2B13F2A9D09390020DC62 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		5EF2B1412A9D09710020DC62 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
 		5EF2B1432A9D249D0020DC62 /* RowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RowView.swift; sourceTree = "<group>"; };
@@ -119,8 +119,8 @@
 		5EF2B1062A9D08F80020DC62 = {
 			isa = PBXGroup;
 			children = (
-				5EF2B1112A9D08F80020DC62 /* NASK */,
-				5EF2B1222A9D08FA0020DC62 /* NASKTests */,
+				5EF2B1112A9D08F80020DC62 /* NBPApp */,
+				5EF2B1222A9D08FA0020DC62 /* NBPAppTests */,
 				5EF2B12C2A9D08FA0020DC62 /* NASKUITests */,
 				5EF2B1102A9D08F80020DC62 /* Products */,
 			);
@@ -129,14 +129,14 @@
 		5EF2B1102A9D08F80020DC62 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2B10F2A9D08F80020DC62 /* NASK.app */,
-				5EF2B11F2A9D08FA0020DC62 /* NASKTests.xctest */,
-				5EF2B1292A9D08FA0020DC62 /* NASKUITests.xctest */,
+				5EF2B10F2A9D08F80020DC62 /* NBP Exchange Rates.app */,
+				5EF2B11F2A9D08FA0020DC62 /* NBP Exchange RatesTests.xctest */,
+				5EF2B1292A9D08FA0020DC62 /* NBP Exchange RatesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5EF2B1112A9D08F80020DC62 /* NASK */ = {
+		5EF2B1112A9D08F80020DC62 /* NBPApp */ = {
 			isa = PBXGroup;
 			children = (
 				5E01DFDE2A9E26FC003DC88C /* MockServices */,
@@ -144,11 +144,11 @@
 				5EF2B13E2A9D091D0020DC62 /* View */,
 				5EF2B13D2A9D090C0020DC62 /* ViewModel */,
 				5EF2B13C2A9D09010020DC62 /* Model */,
-				5EF2B1122A9D08F80020DC62 /* NASKApp.swift */,
+				5E4CB6D22AA20EA40079CEF8 /* NBPApp.swift */,
 				5EF2B1162A9D08FA0020DC62 /* Assets.xcassets */,
 				5EF2B1182A9D08FA0020DC62 /* Preview Content */,
 			);
-			path = NASK;
+			path = NBPApp;
 			sourceTree = "<group>";
 		};
 		5EF2B1182A9D08FA0020DC62 /* Preview Content */ = {
@@ -159,19 +159,19 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		5EF2B1222A9D08FA0020DC62 /* NASKTests */ = {
+		5EF2B1222A9D08FA0020DC62 /* NBPAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2B1232A9D08FA0020DC62 /* NASKTests.swift */,
+				5EF2B1232A9D08FA0020DC62 /* NBPAppTests.swift */,
 			);
-			path = NASKTests;
+			path = NBPAppTests;
 			sourceTree = "<group>";
 		};
 		5EF2B12C2A9D08FA0020DC62 /* NASKUITests */ = {
 			isa = PBXGroup;
 			children = (
-				5EF2B12D2A9D08FA0020DC62 /* NASKUITests.swift */,
-				5EF2B12F2A9D08FA0020DC62 /* NASKUITestsLaunchTests.swift */,
+				5EF2B12D2A9D08FA0020DC62 /* NBPAppUITests.swift */,
+				5EF2B12F2A9D08FA0020DC62 /* NBPAppUITestsLaunchTests.swift */,
 			);
 			path = NASKUITests;
 			sourceTree = "<group>";
@@ -206,9 +206,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5EF2B10E2A9D08F80020DC62 /* NASK */ = {
+		5EF2B10E2A9D08F80020DC62 /* NBP Exchange Rates */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EF2B1332A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASK" */;
+			buildConfigurationList = 5EF2B1332A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange Rates" */;
 			buildPhases = (
 				5EF2B10B2A9D08F80020DC62 /* Sources */,
 				5EF2B10C2A9D08F80020DC62 /* Frameworks */,
@@ -218,14 +218,14 @@
 			);
 			dependencies = (
 			);
-			name = NASK;
+			name = "NBP Exchange Rates";
 			productName = NASK;
-			productReference = 5EF2B10F2A9D08F80020DC62 /* NASK.app */;
+			productReference = 5EF2B10F2A9D08F80020DC62 /* NBP Exchange Rates.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5EF2B11E2A9D08FA0020DC62 /* NASKTests */ = {
+		5EF2B11E2A9D08FA0020DC62 /* NBP Exchange RatesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EF2B1362A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASKTests" */;
+			buildConfigurationList = 5EF2B1362A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange RatesTests" */;
 			buildPhases = (
 				5EF2B11B2A9D08FA0020DC62 /* Sources */,
 				5EF2B11C2A9D08FA0020DC62 /* Frameworks */,
@@ -236,14 +236,14 @@
 			dependencies = (
 				5EF2B1212A9D08FA0020DC62 /* PBXTargetDependency */,
 			);
-			name = NASKTests;
+			name = "NBP Exchange RatesTests";
 			productName = NASKTests;
-			productReference = 5EF2B11F2A9D08FA0020DC62 /* NASKTests.xctest */;
+			productReference = 5EF2B11F2A9D08FA0020DC62 /* NBP Exchange RatesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		5EF2B1282A9D08FA0020DC62 /* NASKUITests */ = {
+		5EF2B1282A9D08FA0020DC62 /* NBP Exchange RatesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5EF2B1392A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASKUITests" */;
+			buildConfigurationList = 5EF2B1392A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange RatesUITests" */;
 			buildPhases = (
 				5EF2B1252A9D08FA0020DC62 /* Sources */,
 				5EF2B1262A9D08FA0020DC62 /* Frameworks */,
@@ -254,9 +254,9 @@
 			dependencies = (
 				5EF2B12B2A9D08FA0020DC62 /* PBXTargetDependency */,
 			);
-			name = NASKUITests;
+			name = "NBP Exchange RatesUITests";
 			productName = NASKUITests;
-			productReference = 5EF2B1292A9D08FA0020DC62 /* NASKUITests.xctest */;
+			productReference = 5EF2B1292A9D08FA0020DC62 /* NBP Exchange RatesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -282,7 +282,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5EF2B10A2A9D08F80020DC62 /* Build configuration list for PBXProject "NASK" */;
+			buildConfigurationList = 5EF2B10A2A9D08F80020DC62 /* Build configuration list for PBXProject "NBP Exchange Rates" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -295,9 +295,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5EF2B10E2A9D08F80020DC62 /* NASK */,
-				5EF2B11E2A9D08FA0020DC62 /* NASKTests */,
-				5EF2B1282A9D08FA0020DC62 /* NASKUITests */,
+				5EF2B10E2A9D08F80020DC62 /* NBP Exchange Rates */,
+				5EF2B11E2A9D08FA0020DC62 /* NBP Exchange RatesTests */,
+				5EF2B1282A9D08FA0020DC62 /* NBP Exchange RatesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -340,13 +340,13 @@
 			files = (
 				5EF2B1402A9D09390020DC62 /* Model.swift in Sources */,
 				5E01DFF12A9E7E49003DC88C /* DetailView.swift in Sources */,
+				5E4CB6D32AA20EA40079CEF8 /* NBPApp.swift in Sources */,
 				5E01DFE02A9E2714003DC88C /* DataService.swift in Sources */,
 				5E01DFDD2A9E26B8003DC88C /* Data.swift in Sources */,
 				5EF2B1442A9D249D0020DC62 /* RowView.swift in Sources */,
 				5EF2B1422A9D09710020DC62 /* ContentModel.swift in Sources */,
 				5E01DFE62A9E3D26003DC88C /* CoinView.swift in Sources */,
 				5EF2B1152A9D08F80020DC62 /* ContentView.swift in Sources */,
-				5EF2B1132A9D08F80020DC62 /* NASKApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -354,7 +354,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF2B1242A9D08FA0020DC62 /* NASKTests.swift in Sources */,
+				5EF2B1242A9D08FA0020DC62 /* NBPAppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,8 +362,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EF2B12E2A9D08FA0020DC62 /* NASKUITests.swift in Sources */,
-				5EF2B1302A9D08FA0020DC62 /* NASKUITestsLaunchTests.swift in Sources */,
+				5EF2B12E2A9D08FA0020DC62 /* NBPAppUITests.swift in Sources */,
+				5EF2B1302A9D08FA0020DC62 /* NBPAppUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,12 +372,12 @@
 /* Begin PBXTargetDependency section */
 		5EF2B1212A9D08FA0020DC62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EF2B10E2A9D08F80020DC62 /* NASK */;
+			target = 5EF2B10E2A9D08F80020DC62 /* NBP Exchange Rates */;
 			targetProxy = 5EF2B1202A9D08FA0020DC62 /* PBXContainerItemProxy */;
 		};
 		5EF2B12B2A9D08FA0020DC62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5EF2B10E2A9D08F80020DC62 /* NASK */;
+			target = 5EF2B10E2A9D08F80020DC62 /* NBP Exchange Rates */;
 			targetProxy = 5EF2B12A2A9D08FA0020DC62 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -504,7 +504,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NASK/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NBPApp/Preview Content\"";
 				DEVELOPMENT_TEAM = KKCT26533X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -533,7 +533,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"NASK/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"NBPApp/Preview Content\"";
 				DEVELOPMENT_TEAM = KKCT26533X;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -571,7 +571,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBP Exchange Rates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NBP Exchange Rates";
 			};
 			name = Debug;
 		};
@@ -591,7 +591,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NASK.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NASK";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NBP Exchange Rates.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NBP Exchange Rates";
 			};
 			name = Release;
 		};
@@ -634,7 +634,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5EF2B10A2A9D08F80020DC62 /* Build configuration list for PBXProject "NASK" */ = {
+		5EF2B10A2A9D08F80020DC62 /* Build configuration list for PBXProject "NBP Exchange Rates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF2B1312A9D08FA0020DC62 /* Debug */,
@@ -643,7 +643,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EF2B1332A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASK" */ = {
+		5EF2B1332A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange Rates" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF2B1342A9D08FA0020DC62 /* Debug */,
@@ -652,7 +652,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EF2B1362A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASKTests" */ = {
+		5EF2B1362A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange RatesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF2B1372A9D08FA0020DC62 /* Debug */,
@@ -661,7 +661,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5EF2B1392A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NASKUITests" */ = {
+		5EF2B1392A9D08FA0020DC62 /* Build configuration list for PBXNativeTarget "NBP Exchange RatesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5EF2B13A2A9D08FA0020DC62 /* Debug */,
